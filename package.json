@@ -1,0 +1,25 @@
+{
+  "name": "nevosoft-concurrences",
+  "version": "1.0.0",
+  "description": "Game for Nevosoft Junior developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dzemite/Nevosoft-Cuncurrences.git"
+  },
+  "keywords": [
+    "Cuncurrences"
+  ],
+  "author": "Roman Nikolaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dzemite/Nevosoft-Cuncurrences/issues"
+  },
+  "homepage": "https://github.com/Dzemite/Nevosoft-Cuncurrences#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
