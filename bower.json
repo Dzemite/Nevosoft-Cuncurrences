@@ -1,0 +1,23 @@
+{
+  "name": "nevosoft-concurrences",
+  "description": "Game for Nevosoft Junior developer",
+  "authors": [
+    "Roman Nikolaev"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Cuncurrences"
+  ],
+  "homepage": "https://github.com/Dzemite/Nevosoft-Cuncurrences",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pixi.js": "^4.7.0"
+  }
+}

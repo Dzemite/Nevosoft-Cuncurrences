@@ -4,7 +4,8 @@
   "description": "Game for Nevosoft Junior developer",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "postinstall": "bower install; gulp"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,18 @@
   },
   "homepage": "https://github.com/Dzemite/Nevosoft-Cuncurrences#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "del": "^3.0.0",
+    "express": "^4.16.2",
+    "pixi": "^0.3.1",
+    "pixi.js": "^4.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-shell": "^0.6.5",
+    "jshint": "^2.9.5",
+    "requirejs": "^2.3.5"
   }
 }

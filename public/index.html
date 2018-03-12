@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Concurrences</title>
+		<link rel='stylesheet' type='text/css' href='css/main.css'>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.1/pixi.min.js"></script>
+	</head>
+	<body>
+
+		<div class='game_container'>
+			<h1>Concurences</h1>
+			<div id='game'></div>
+		</div>
+
+		<audio id='down' src='../assets/sounds/down.mp3'></audio>
+		<audio id='up' src='../assets/sounds/up.mp3'></audio>
+
+		<!-- @if NODE_ENV='production' -->
+		<script data-main='main-built' src='lib/requirejs/require.js'></script>
+		<!-- @endif -->
+		<!-- @if NODE_ENV!='production' -->
+		<script data-main='scripts/main' src='lib/requirejs/require.js'></script>
+		<!-- @endif -->
+
+	</body>
+</html>
